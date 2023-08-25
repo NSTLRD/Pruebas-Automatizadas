@@ -55,7 +55,7 @@ def test_links_to_not_found():
             view_profile_link.click()
             time.sleep(4)
 
-            # Espera a que la página "not found" se cargue (puedes agregar esperas explícitas aquí)
+            # Espera a que la página "not found" se cargue
             time.sleep(15)  # Aumenta el tiempo de espera
 
             # Verifica si la página de "not found" se ha cargado
